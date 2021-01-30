@@ -8,7 +8,8 @@
 :root{
     --body-font:'Montserrat', sans-serif;
     --primary-color:#4E5150;
-    --secondary-color:F2994A;
+    --secondary-color:#F2994A;
+    --label-color:#4F4F4F;
 }
 /* Utilities */
 body{
@@ -20,6 +21,9 @@ a{
 input{
     border: none;
 }
+input:focus{
+    outline: none;
+}
 .fas{
     color: #828282;
     margin-right: .5em;
@@ -28,5 +32,32 @@ input{
     max-width:700px;
     margin: 0 auto;
     padding: 1em;
-    background-color: #4E5150;
+    background-color: #f3f3f3;
+}
+/* checkput header */
+.checkout__title{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+/* Checkout Form */
+.checkout__form--control p{
+    color: #333333;
+    font-size: 1em;
+
+}
+.checkout__form--control label{
+    color:var(--label-color) ;
+    font-size: .75em;
+}
+.input_icon{
+    border:  1px solid #828282;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    padding: .2em;
+}
+.input_icon input{
+    width: 90%;
+    padding: .5em;
+    background:inherit;
 }
