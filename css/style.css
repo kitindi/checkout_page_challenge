@@ -17,3 +17,16 @@ body{
 a{
     text-decoration: none;
 }
+input{
+    border: none;
+}
+.fas{
+    color: #828282;
+    margin-right: .5em;
+}
+.container{
+    max-width:700px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #4E5150;
+}

@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="./css/style.css">
     <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/9ca08a6a82.js" crossorigin="anonymous"></script>
     <title>Checkout Page |Devchallenges</title>
   </head>
   <body>
@@ -21,12 +22,20 @@
     </section>
     <section class="checkout__form">
       <div class="container">
-        <div class="checkout_details">
+        <form action="">
+          <div class="checkout__form--control">
+            <h4>Contact infomation</h4>
+          </div>
+          <!-- email input -->
+          <div class="checkout__form--control">
+            <label for="email">E-mail</label>
+            <div class="input_icon">
+              <i class="fas fa-envelope"></i><input type="email" name="email" placeholder="Enter your email">
+            </div>
+          </div>              
+          </form>
 
-        </div>
-        <div class="checkout_items">
-          
-        </div>
+      </div>
       </div>
     </section>
     <script src="./js/main.js"></script>
