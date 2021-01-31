@@ -26,7 +26,7 @@ input:focus{
 }
 .fas{
     color: #828282;
-    margin-right: .5em;
+    margin: 0 .5em;
 }
 .container{
     max-width:700px;
@@ -60,4 +60,7 @@ input:focus{
     width: 90%;
     padding: .5em;
     background:inherit;
+}
+label{
+    margin-bottom: 1em;
 }
