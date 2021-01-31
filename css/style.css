@@ -45,7 +45,9 @@ p{
     font-weight: 500;
 }
 /* Checkout Form */
-
+.checkout__form--control{
+    margin-bottom: .5em;
+}
 .checkout__form--control label{
     color:var(--label-color) ;
     font-size: .75em;
@@ -56,6 +58,7 @@ p{
     display:flex;
     align-items: center;
     padding: .2em;
+    margin-top: .5em;
 }
 .input_icon input{
     width: 90%;
@@ -67,4 +70,33 @@ label{
 }
 .shipping{
     padding: 2em 0;
+}
+.col-2{
+    display: flex;
+}
+.col-2 div:nth-child(1){
+    margin-right: .5em;
+}
+
+.checkbox{
+    margin: .5em 0;
+    padding: .5em 0;
+}
+.checkbox label{
+    color: var(--label-color);
+    font-size: .7em;
+}
+
+.button{
+    padding: .5em 0;
+    text-align: right;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    padding: .75em 1.5em;
+    font-size: .75em;
+    background-color: var(--secondary-color);
+    color: white;
+    font-weight: 600;
 }
