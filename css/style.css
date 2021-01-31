@@ -28,6 +28,11 @@ input:focus{
     color: #828282;
     margin: 0 .5em;
 }
+p{
+    color: #333333;
+    font-size: 1em;
+    margin-bottom: .5em;
+}
 .container{
     max-width:700px;
     margin: 0 auto;
@@ -40,11 +45,7 @@ input:focus{
     font-weight: 500;
 }
 /* Checkout Form */
-.checkout__form--control p{
-    color: #333333;
-    font-size: 1em;
 
-}
 .checkout__form--control label{
     color:var(--label-color) ;
     font-size: .75em;
@@ -63,4 +64,7 @@ input:focus{
 }
 label{
     margin-bottom: 1em;
+}
+.shipping{
+    padding: 2em 0;
 }
