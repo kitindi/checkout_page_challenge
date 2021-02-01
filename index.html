@@ -13,16 +13,13 @@
     <title>Checkout Page |Devchallenges</title>
   </head>
   <body>
+<div class="container">
     <section class="checkout__header">
-      <div class="container">
         <h2 class="checkout__title">
           Checkout
         </h2>
-      </div>
-    </section>
-    <section class="checkout__form">
-      <div class="container">
-        <form action="">
+      <!-- checkout form -->
+    <form action="">
           <div class="checkout__form--control">
             <p>Contact infomation</p>
           </div>
@@ -83,11 +80,25 @@
             <button class="btn">Continue</button>
             </div>
         </div>
-          </form>
+        </form>
+    </section>
+    <section class="products">
+      <div class="product__card">
+        <div class="card__img">
+          <img src="./img/photo1.png" alt="product image">
+        </div>
+        <div class="card__data">
+          <p class="name">Vintage Backbag</p>
+          <p class="price"> $54.99<span class="sales">$94.99</span></p>
+          <div class="select">
+            <button class="btn-remove">-</button> <p class="num__item">1</p> <button class="btn-add">+</button>
+          </div>
 
-      </div>
+        </div>
       </div>
     </section>
+
+   </div> 
     <script src="./js/main.js"></script>
   </body>
 </html>

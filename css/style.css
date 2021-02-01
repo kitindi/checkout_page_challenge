@@ -42,7 +42,9 @@ p{
 /* checkput header */
 .checkout__title{
     font-size: 1.2em;
-    font-weight: 500;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: .5em;
 }
 /* Checkout Form */
 .checkout__form--control{
@@ -99,4 +101,18 @@ label{
     background-color: var(--secondary-color);
     color: white;
     font-weight: 600;
+}
+
+/* checkout items */
+
+.products{
+    width: 318px;
+    background: #F2F2F2;
+    padding: .5em;
+}
+.product__card{
+    display:flex;
+}
+.card__img{
+    width: 50%;
 }
