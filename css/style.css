@@ -191,6 +191,8 @@ label{
    
 }
 footer .content{
+    max-width: 600px;
+    margin: 0 auto;
     padding: .75em 0;
     text-align: center;
     font-size: .75em;
