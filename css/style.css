@@ -73,6 +73,9 @@ p{
     padding: .5em;
     background:inherit;
 }
+button{
+    cursor: pointer;
+}
 label{
     margin-bottom: 1em;
 }
@@ -197,7 +200,7 @@ label{
         justify-content: space-between;
     }
     .products{
-        width: 40%;
+        width: 50%;
         margin-left: 1.5em;
         padding: 0 1em;
     }
