@@ -190,7 +190,14 @@ label{
     border-bottom: 1px solid #BDBDBD;
    
 }
-
+footer .content{
+    padding: .75em 0;
+    text-align: center;
+    font-size: .75em;
+}
+footer .fa-heart{
+    color: var(--secondary-color);
+}
 /* Large screens */
 
 @media(min-width:600px){
